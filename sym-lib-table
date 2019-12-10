@@ -4,4 +4,5 @@
   (lib (name katio_not)(type Legacy)(uri ${KIPRJMOD}/katio_not.lib)(options "")(descr ""))
   (lib (name Connector)(type Legacy)(uri /home/katio/script/github.com/KiCad/kicad-symbols/Connector.lib)(options "")(descr ""))
   (lib (name Connector_Generic)(type Legacy)(uri /home/katio/script/github.com/KiCad/kicad-symbols/Connector_Generic.lib)(options "")(descr ""))
+  (lib (name verilog-alu-kicad-rescue)(type Legacy)(uri ${KIPRJMOD}/verilog-alu-kicad-rescue.lib)(options "")(descr ""))
 )
