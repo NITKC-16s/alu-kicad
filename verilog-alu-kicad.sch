@@ -1,0 +1,423 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 74xx:74LS00 U?
+U 5 1 5DE72DAD
+P 3750 5200
+F 0 "U?" H 3980 5246 50  0000 L CNN
+F 1 "74LS00" H 3980 5155 50  0000 L CNN
+F 2 "" H 3750 5200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 3750 5200 50  0001 C CNN
+	5    3750 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 U?
+U 5 1 5DFE03CB
+P 4700 5200
+F 0 "U?" H 4930 5246 50  0000 L CNN
+F 1 "74LS00" H 4930 5155 50  0000 L CNN
+F 2 "" H 4700 5200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 4700 5200 50  0001 C CNN
+	5    4700 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9600 2700 10150 2700
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 5E379455
+P 10350 2700
+F 0 "J?" H 10430 2742 50  0001 L CNN
+F 1 "X" H 10430 2696 50  0000 L CNN
+F 2 "" H 10350 2700 50  0001 C CNN
+F 3 "~" H 10350 2700 50  0001 C CNN
+	1    10350 2700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 2800 9000 2800
+Wire Wire Line
+	8800 3000 8800 2800
+Wire Wire Line
+	8600 3000 8800 3000
+Wire Wire Line
+	8800 2600 9000 2600
+Wire Wire Line
+	8800 2450 8800 2600
+Wire Wire Line
+	8600 2450 8800 2450
+Connection ~ 7400 3800
+Wire Wire Line
+	7400 4000 7400 3800
+Wire Wire Line
+	7150 3800 7400 3800
+Connection ~ 7150 3800
+Wire Wire Line
+	7150 2550 7150 3800
+Wire Wire Line
+	8000 2550 7150 2550
+Wire Wire Line
+	7000 2900 8000 2900
+Wire Wire Line
+	7450 2350 8000 2350
+Wire Wire Line
+	6750 3800 7150 3800
+Wire Wire Line
+	8000 3900 8000 3100
+Wire Wire Line
+	7450 2100 10150 2100
+Connection ~ 7450 2100
+Wire Wire Line
+	7450 2350 7450 2100
+$Comp
+L 74xx:74LS00 NAND-IC-4
+U 4 1 5E0EDF5A
+P 9300 2700
+F 0 "NAND-IC-4" H 9300 3025 50  0000 C CNN
+F 1 "74LS00" H 9300 2934 50  0000 C CNN
+F 2 "" H 9300 2700 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 9300 2700 50  0001 C CNN
+	4    9300 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 NAND-IC-4
+U 3 1 5E0EB4D3
+P 8300 3000
+F 0 "NAND-IC-4" H 8300 3325 50  0000 C CNN
+F 1 "74LS00" H 8300 3234 50  0000 C CNN
+F 2 "" H 8300 3000 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 8300 3000 50  0001 C CNN
+	3    8300 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 NAND-IC-4
+U 2 1 5E0E7CFF
+P 8300 2450
+F 0 "NAND-IC-4" H 8300 2775 50  0000 C CNN
+F 1 "74LS00" H 8300 2684 50  0000 C CNN
+F 2 "" H 8300 2450 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 8300 2450 50  0001 C CNN
+	2    8300 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 NAND-IC-4
+U 1 1 5E0E622C
+P 7700 3900
+F 0 "NAND-IC-4" H 7700 4225 50  0000 C CNN
+F 1 "74LS00" H 7700 4134 50  0000 C CNN
+F 2 "" H 7700 3900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 7700 3900 50  0001 C CNN
+	1    7700 3900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 3000 6400 3000
+Wire Wire Line
+	6350 2800 6400 2800
+$Comp
+L 74xx:74LS00 NAND-IC-2
+U 2 1 5E011ABF
+P 5600 2650
+F 0 "NAND-IC-2" H 5600 2975 50  0000 C CNN
+F 1 "74LS00" H 5600 2884 50  0000 C CNN
+F 2 "" H 5600 2650 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 5600 2650 50  0001 C CNN
+	2    5600 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 5DF0C951
+P 6550 3800
+F 0 "J?" H 6630 3842 50  0001 L CNN
+F 1 "S" H 6468 3925 50  0000 C CNN
+F 2 "" H 6550 3800 50  0001 C CNN
+F 3 "~" H 6550 3800 50  0001 C CNN
+	1    6550 3800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 5E1FCAAF
+P 10350 2100
+F 0 "J?" H 10430 2142 50  0001 L CNN
+F 1 "C_out" H 10430 2096 50  0000 L CNN
+F 2 "" H 10350 2100 50  0001 C CNN
+F 3 "~" H 10350 2100 50  0001 C CNN
+	1    10350 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2350 1200 2350 1300
+Wire Wire Line
+	2050 1300 2350 1300
+Wire Wire Line
+	2350 900  2350 1000
+Wire Wire Line
+	2050 900  2350 900 
+$Comp
+L 74xx:74LS00 NAND-IC-3
+U 1 1 5DE690BD
+P 2650 1100
+F 0 "NAND-IC-3" H 2650 1425 50  0000 C CNN
+F 1 "74LS00" H 2650 1334 50  0000 C CNN
+F 2 "" H 2650 1100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 2650 1100 50  0001 C CNN
+	1    2650 1100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 5DEE98D2
+P 1850 900
+F 0 "J?" H 1930 942 50  0001 L CNN
+F 1 "Cin" H 1768 1025 50  0000 C CNN
+F 2 "" H 1850 900 50  0001 C CNN
+F 3 "~" H 1850 900 50  0001 C CNN
+	1    1850 900 
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3200 2550 3200 2000
+Wire Wire Line
+	2450 2550 3200 2550
+$Comp
+L 74xx:74LS00 NAND-IC-3
+U 3 1 5E017A71
+P 6150 2100
+F 0 "NAND-IC-3" H 6150 2425 50  0000 C CNN
+F 1 "74LS00" H 6150 2334 50  0000 C CNN
+F 2 "" H 6150 2100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 6150 2100 50  0001 C CNN
+	3    6150 2100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6350 3150 6350 3000
+Wire Wire Line
+	5900 3150 6350 3150
+Wire Wire Line
+	6350 2650 6350 2800
+Wire Wire Line
+	5900 2650 6350 2650
+Wire Wire Line
+	4500 3000 4500 3250
+Wire Wire Line
+	5300 3250 4500 3250
+Connection ~ 5100 2900
+Wire Wire Line
+	5100 3050 5100 2900
+Wire Wire Line
+	5300 3050 5100 3050
+Wire Wire Line
+	5100 2750 5100 2900
+Wire Wire Line
+	5300 2750 5100 2750
+Connection ~ 4500 2550
+Wire Wire Line
+	5300 2550 4500 2550
+$Comp
+L 74xx:74LS00 NAND-IC-2
+U 1 1 5DFE2341
+P 4800 2900
+F 0 "NAND-IC-2" H 4800 3225 50  0000 C CNN
+F 1 "74LS00" H 4800 3134 50  0000 C CNN
+F 2 "" H 4800 2900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 4800 2900 50  0001 C CNN
+	1    4800 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 NAND-IC-2
+U 4 1 5DFDE8AA
+P 6700 2900
+F 0 "NAND-IC-2" H 6700 3225 50  0000 C CNN
+F 1 "74LS00" H 6700 3134 50  0000 C CNN
+F 2 "" H 6700 2900 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 6700 2900 50  0001 C CNN
+	4    6700 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 2550 4500 2800
+Wire Wire Line
+	4000 2550 4500 2550
+$Comp
+L 74xx:74LS00 NAND-IC-2
+U 3 1 5DFD4078
+P 5600 3150
+F 0 "NAND-IC-2" H 5600 3475 50  0000 C CNN
+F 1 "74LS00" H 5600 3384 50  0000 C CNN
+F 2 "" H 5600 3150 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 5600 3150 50  0001 C CNN
+	3    5600 3150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 2800 3400 2650
+Wire Wire Line
+	3050 2800 3400 2800
+Wire Wire Line
+	3400 2300 3400 2450
+Wire Wire Line
+	3050 2300 3400 2300
+$Comp
+L 74xx:74LS00 NAND-IC-1
+U 2 1 5DFBF997
+P 2750 2300
+F 0 "NAND-IC-1" H 2750 2625 50  0000 C CNN
+F 1 "74LS00" H 2750 2534 50  0000 C CNN
+F 2 "" H 2750 2300 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 2750 2300 50  0001 C CNN
+	2    2750 2300
+	1    0    0    -1  
+$EndComp
+Connection ~ 1500 2900
+Wire Wire Line
+	2450 2900 1500 2900
+Connection ~ 1500 2200
+Wire Wire Line
+	1500 2200 2450 2200
+Connection ~ 2450 2550
+Wire Wire Line
+	2450 2700 2450 2550
+Wire Wire Line
+	2450 2550 2450 2400
+Wire Wire Line
+	2100 2550 2450 2550
+$Comp
+L 74xx:74LS00 NAND-IC-1
+U 1 1 5DF9BD07
+P 1800 2550
+F 0 "NAND-IC-1" H 1800 2875 50  0000 C CNN
+F 1 "74LS00" H 1800 2784 50  0000 C CNN
+F 2 "" H 1800 2550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 1800 2550 50  0001 C CNN
+	1    1800 2550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1500 2900 1500 2650
+Wire Wire Line
+	1100 2900 1500 2900
+Wire Wire Line
+	1500 2200 1500 2450
+Wire Wire Line
+	1100 2200 1500 2200
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 5DF40428
+P 900 2900
+F 0 "J?" H 980 2942 50  0001 L CNN
+F 1 "B" H 818 3025 50  0000 C CNN
+F 2 "" H 900 2900 50  0001 C CNN
+F 3 "~" H 900 2900 50  0001 C CNN
+	1    900  2900
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 5DF3FDFE
+P 900 2200
+F 0 "J?" H 980 2242 50  0001 L CNN
+F 1 "A" H 818 2325 50  0000 C CNN
+F 2 "" H 900 2200 50  0001 C CNN
+F 3 "~" H 900 2200 50  0001 C CNN
+	1    900  2200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3400 1600 3400 1300
+Wire Wire Line
+	2950 1600 3400 1600
+Wire Wire Line
+	2950 1100 3400 1100
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 5DF13A05
+P 2750 1600
+F 0 "J?" H 2830 1642 50  0001 L CNN
+F 1 "E(Fa_Cin_selector)" H 2668 1725 50  0000 C CNN
+F 2 "" H 2750 1600 50  0001 C CNN
+F 3 "~" H 2750 1600 50  0001 C CNN
+	1    2750 1600
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 J?
+U 1 1 5DEF0239
+P 1850 1300
+F 0 "J?" H 1930 1342 50  0001 L CNN
+F 1 "Decoder[0]" H 1768 1425 50  0000 C CNN
+F 2 "" H 1850 1300 50  0001 C CNN
+F 3 "~" H 1850 1300 50  0001 C CNN
+	1    1850 1300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 NAND-IC-1
+U 3 1 5DE70E2A
+P 2750 2800
+F 0 "NAND-IC-1" H 2750 3125 50  0000 C CNN
+F 1 "74LS00" H 2750 3034 50  0000 C CNN
+F 2 "" H 2750 2800 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 2750 2800 50  0001 C CNN
+	3    2750 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 NAND-IC-1
+U 4 1 5DE71E8C
+P 3700 2550
+F 0 "NAND-IC-1" H 3700 2875 50  0000 C CNN
+F 1 "74LS00" H 3700 2784 50  0000 C CNN
+F 2 "" H 3700 2550 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 3700 2550 50  0001 C CNN
+	4    3700 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 NAND-IC-3
+U 2 1 5DE6C17D
+P 3700 1200
+F 0 "NAND-IC-3" H 3700 1525 50  0000 C CNN
+F 1 "74LS00" H 3700 1434 50  0000 C CNN
+F 2 "" H 3700 1200 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 3700 1200 50  0001 C CNN
+	2    3700 1200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4500 3250 4150 3250
+Wire Wire Line
+	4150 3250 4150 1200
+Wire Wire Line
+	4000 1200 4150 1200
+Connection ~ 4500 3250
+Wire Wire Line
+	5100 2750 5100 2200
+Connection ~ 5100 2750
+Wire Wire Line
+	6450 2100 7450 2100
+Wire Wire Line
+	3200 2000 5850 2000
+Wire Wire Line
+	5100 2200 5850 2200
+$EndSCHEMATC
