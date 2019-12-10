@@ -14,25 +14,25 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L 74xx:74LS00 U?
+L 74xx:74LS00 NAND-IC-1
 U 5 1 5DE72DAD
-P 3750 5200
-F 0 "U?" H 3980 5246 50  0000 L CNN
-F 1 "74LS00" H 3980 5155 50  0000 L CNN
-F 2 "" H 3750 5200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 3750 5200 50  0001 C CNN
-	5    3750 5200
+P 2500 4600
+F 0 "NAND-IC-1" H 2730 4646 50  0000 L CNN
+F 1 "74LS00" H 2730 4555 50  0000 L CNN
+F 2 "" H 2500 4600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 2500 4600 50  0001 C CNN
+	5    2500 4600
 	1    0    0    -1  
 $EndComp
 $Comp
-L 74xx:74LS00 U?
+L 74xx:74LS00 NAND-IC-2
 U 5 1 5DFE03CB
-P 4700 5200
-F 0 "U?" H 4930 5246 50  0000 L CNN
-F 1 "74LS00" H 4930 5155 50  0000 L CNN
-F 2 "" H 4700 5200 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 4700 5200 50  0001 C CNN
-	5    4700 5200
+P 3350 4600
+F 0 "NAND-IC-2" H 3580 4646 50  0000 L CNN
+F 1 "74LS00" H 3580 4555 50  0000 L CNN
+F 2 "" H 3350 4600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 3350 4600 50  0001 C CNN
+	5    3350 4600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -420,4 +420,70 @@ Wire Wire Line
 	3200 2000 5850 2000
 Wire Wire Line
 	5100 2200 5850 2200
+$Comp
+L 74xx:74LS00 NAND-IC-3
+U 5 1 5E9E9351
+P 4200 4600
+F 0 "NAND-IC-3" H 4430 4646 50  0000 L CNN
+F 1 "74LS00" H 4430 4555 50  0000 L CNN
+F 2 "" H 4200 4600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 4200 4600 50  0001 C CNN
+	5    4200 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L 74xx:74LS00 NAND-IC-4
+U 5 1 5E9EC331
+P 5000 4600
+F 0 "NAND-IC-4" H 5230 4646 50  0000 L CNN
+F 1 "74LS00" H 5230 4555 50  0000 L CNN
+F 2 "" H 5000 4600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 5000 4600 50  0001 C CNN
+	5    5000 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 VCC
+U 1 1 5EA039BE
+P 1800 4100
+F 0 "VCC" H 1718 4225 50  0000 C CNN
+F 1 "Conn_01x01" H 1718 4226 50  0001 C CNN
+F 2 "" H 1800 4100 50  0001 C CNN
+F 3 "~" H 1800 4100 50  0001 C CNN
+	1    1800 4100
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x01 GND
+U 1 1 5EA19FCD
+P 1800 5100
+F 0 "GND" H 1718 5225 50  0000 C CNN
+F 1 "Conn_01x01" H 1718 5226 50  0001 C CNN
+F 2 "" H 1800 5100 50  0001 C CNN
+F 3 "~" H 1800 5100 50  0001 C CNN
+	1    1800 5100
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2050 4100 2500 4100
+Connection ~ 2500 4100
+Wire Wire Line
+	2500 4100 3350 4100
+Connection ~ 3350 4100
+Wire Wire Line
+	3350 4100 4200 4100
+Connection ~ 4200 4100
+Wire Wire Line
+	4200 4100 5000 4100
+Wire Wire Line
+	2000 5100 2500 5100
+Connection ~ 2500 5100
+Wire Wire Line
+	2500 5100 3350 5100
+Connection ~ 3350 5100
+Wire Wire Line
+	3350 5100 4200 5100
+Connection ~ 4200 5100
+Wire Wire Line
+	4200 5100 5000 5100
 $EndSCHEMATC
