@@ -349,18 +349,18 @@ U 1 1 5DEF4F14
 P 1050 2600
 F 0 "decoder_2&decoder_4" H 1138 2423 50  0000 L CNN
 F 1 "Conn_01x02_MountingPin" H 1138 2514 50  0000 L CNN
-F 2 "" H 1050 2600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 1050 2600 50  0001 C CNN
 F 3 "~" H 1050 2600 50  0001 C CNN
 	1    1050 2600
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic_MountingPin:Conn_01x02_MountingPin VCC&GND
+L Connector_Generic_MountingPin:Conn_01x02_MountingPin VCC&GND1
 U 1 1 5DEFA690
 P 1650 4500
-F 0 "VCC&GND" H 1738 4323 50  0000 L CNN
+F 0 "VCC&GND1" H 1738 4323 50  0000 L CNN
 F 1 "Conn_01x02_MountingPin" H 1738 4414 50  0000 L CNN
-F 2 "" H 1650 4500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 1650 4500 50  0001 C CNN
 F 3 "~" H 1650 4500 50  0001 C CNN
 	1    1650 4500
 	-1   0    0    1   
@@ -394,12 +394,12 @@ Wire Wire Line
 Wire Wire Line
 	2350 1150 2350 1200
 $Comp
-L Connector_Generic_MountingPin:Conn_01x02_MountingPin InputSelector&OutputSelector
+L Connector_Generic_MountingPin:Conn_01x02_MountingPin InputSelector&OutputSelector1
 U 1 1 5DF16C36
 P 1900 1650
-F 0 "InputSelector&OutputSelector" H 1988 1473 50  0000 L CNN
+F 0 "InputSelector&OutputSelector1" H 1988 1473 50  0000 L CNN
 F 1 "Conn_01x02_MountingPin" H 1988 1564 50  0000 L CNN
-F 2 "" H 1900 1650 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 1900 1650 50  0001 C CNN
 F 3 "~" H 1900 1650 50  0001 C CNN
 	1    1900 1650
 	-1   0    0    1   
@@ -418,12 +418,12 @@ Wire Wire Line
 Wire Wire Line
 	2200 1650 2200 3800
 $Comp
-L Connector_Generic_MountingPin:Conn_01x02_MountingPin Cout&Sout
+L Connector_Generic_MountingPin:Conn_01x02_MountingPin Cout&Sout1
 U 1 1 5DF32BB6
 P 10400 2600
-F 0 "Cout&Sout" H 10487 2516 50  0000 L CNN
+F 0 "Cout&Sout1" H 10487 2516 50  0000 L CNN
 F 1 "Conn_01x02_MountingPin" H 10487 2425 50  0000 L CNN
-F 2 "" H 10400 2600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 10400 2600 50  0001 C CNN
 F 3 "~" H 10400 2600 50  0001 C CNN
 	1    10400 2600
 	1    0    0    -1  
@@ -441,7 +441,7 @@ U 1 1 5DF0DD07
 P 1900 1150
 F 0 "C&decoder_0" H 1988 973 50  0000 L CNN
 F 1 "Conn_01x02_MountingPin" H 1988 1064 50  0000 L CNN
-F 2 "" H 1900 1150 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 1900 1150 50  0001 C CNN
 F 3 "~" H 1900 1150 50  0001 C CNN
 	1    1900 1150
 	-1   0    0    1   
