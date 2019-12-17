@@ -23,7 +23,7 @@ F 1 "74LS00" H 2730 4555 50  0000 L CNN
 F 2 "Digikey:Socket_DIP-14_7.62mm_Conn" H 2500 4600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 2500 4600 50  0001 C CNN
 	5    2500 4600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L verilog-alu-kicad-rescue:74LS00-74xx NAND-IC-2
@@ -34,7 +34,7 @@ F 1 "74LS00" H 3580 4555 50  0000 L CNN
 F 2 "Digikey:Socket_DIP-14_7.62mm_Conn" H 3350 4600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 3350 4600 50  0001 C CNN
 	5    3350 4600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	8800 2800 9000 2800
@@ -74,7 +74,7 @@ F 1 "74LS00" H 9300 2934 50  0000 C CNN
 F 2 "Digikey:Socket_DIP-14_7.62mm_Conn" H 9300 2700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 9300 2700 50  0001 C CNN
 	4    9300 2700
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L verilog-alu-kicad-rescue:74LS00-74xx NAND-IC-4
@@ -85,7 +85,7 @@ F 1 "74LS00" H 8300 3234 50  0000 C CNN
 F 2 "Digikey:Socket_DIP-14_7.62mm_Conn" H 8300 3000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 8300 3000 50  0001 C CNN
 	3    8300 3000
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L verilog-alu-kicad-rescue:74LS00-74xx NAND-IC-4
@@ -96,7 +96,7 @@ F 1 "74LS00" H 8300 2684 50  0000 C CNN
 F 2 "Digikey:Socket_DIP-14_7.62mm_Conn" H 8300 2450 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 8300 2450 50  0001 C CNN
 	2    8300 2450
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L verilog-alu-kicad-rescue:74LS00-74xx NAND-IC-4
@@ -107,7 +107,7 @@ F 1 "74LS00" H 7700 4134 50  0000 C CNN
 F 2 "Digikey:Socket_DIP-14_7.62mm_Conn" H 7700 3900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 7700 3900 50  0001 C CNN
 	1    7700 3900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	6350 3000 6400 3000
@@ -122,7 +122,7 @@ F 1 "74LS00" H 5600 2884 50  0000 C CNN
 F 2 "Digikey:Socket_DIP-14_7.62mm_Conn" H 5600 2650 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 5600 2650 50  0001 C CNN
 	2    5600 2650
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L verilog-alu-kicad-rescue:74LS00-74xx NAND-IC-3
@@ -133,7 +133,7 @@ F 1 "74LS00" H 2650 1334 50  0000 C CNN
 F 2 "Digikey:Socket_DIP-14_7.62mm_Conn" H 2650 1100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 2650 1100 50  0001 C CNN
 	1    2650 1100
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	3200 2550 3200 2000
@@ -148,7 +148,7 @@ F 1 "74LS00" H 6150 2334 50  0000 C CNN
 F 2 "Digikey:Socket_DIP-14_7.62mm_Conn" H 6150 2100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 6150 2100 50  0001 C CNN
 	3    6150 2100
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	6350 3150 6350 3000
@@ -183,7 +183,7 @@ F 1 "74LS00" H 4800 3134 50  0000 C CNN
 F 2 "Digikey:Socket_DIP-14_7.62mm_Conn" H 4800 2900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 4800 2900 50  0001 C CNN
 	1    4800 2900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L verilog-alu-kicad-rescue:74LS00-74xx NAND-IC-2
@@ -194,7 +194,7 @@ F 1 "74LS00" H 6700 3134 50  0000 C CNN
 F 2 "Digikey:Socket_DIP-14_7.62mm_Conn" H 6700 2900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 6700 2900 50  0001 C CNN
 	4    6700 2900
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	4500 2550 4500 2800
@@ -209,7 +209,7 @@ F 1 "74LS00" H 5600 3384 50  0000 C CNN
 F 2 "Digikey:Socket_DIP-14_7.62mm_Conn" H 5600 3150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 5600 3150 50  0001 C CNN
 	3    5600 3150
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	3400 2800 3400 2650
@@ -228,7 +228,7 @@ F 1 "74LS00" H 2750 2534 50  0000 C CNN
 F 2 "Digikey:Socket_DIP-14_7.62mm_Conn" H 2750 2300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 2750 2300 50  0001 C CNN
 	2    2750 2300
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	2450 2900 1500 2900
@@ -248,7 +248,7 @@ F 1 "74LS00" H 1800 2784 50  0000 C CNN
 F 2 "Digikey:Socket_DIP-14_7.62mm_Conn" H 1800 2550 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 1800 2550 50  0001 C CNN
 	1    1800 2550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	1500 2900 1500 2650
@@ -265,7 +265,7 @@ F 1 "74LS00" H 2750 3034 50  0000 C CNN
 F 2 "Digikey:Socket_DIP-14_7.62mm_Conn" H 2750 2800 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 2750 2800 50  0001 C CNN
 	3    2750 2800
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L verilog-alu-kicad-rescue:74LS00-74xx NAND-IC-1
@@ -276,7 +276,7 @@ F 1 "74LS00" H 3700 2784 50  0000 C CNN
 F 2 "Digikey:Socket_DIP-14_7.62mm_Conn" H 3700 2550 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 3700 2550 50  0001 C CNN
 	4    3700 2550
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L verilog-alu-kicad-rescue:74LS00-74xx NAND-IC-3
@@ -287,7 +287,7 @@ F 1 "74LS00" H 3700 1434 50  0000 C CNN
 F 2 "Digikey:Socket_DIP-14_7.62mm_Conn" H 3700 1200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 3700 1200 50  0001 C CNN
 	2    3700 1200
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	4500 3250 4150 3250
@@ -314,7 +314,7 @@ F 1 "74LS00" H 4430 4555 50  0000 L CNN
 F 2 "Digikey:Socket_DIP-14_7.62mm_Conn" H 4200 4600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 4200 4600 50  0001 C CNN
 	5    4200 4600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 $Comp
 L verilog-alu-kicad-rescue:74LS00-74xx NAND-IC-4
@@ -325,7 +325,7 @@ F 1 "74LS00" H 5230 4555 50  0000 L CNN
 F 2 "Digikey:Socket_DIP-14_7.62mm_Conn" H 5000 4600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 5000 4600 50  0001 C CNN
 	5    5000 4600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	2500 4100 3350 4100
@@ -352,7 +352,7 @@ F 1 "Conn_01x02_MountingPin" H 1138 2514 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 1050 2600 50  0001 C CNN
 F 3 "~" H 1050 2600 50  0001 C CNN
 	1    1050 2600
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $Comp
 L Connector_Generic_MountingPin:Conn_01x02_MountingPin VCC&GND1
@@ -363,7 +363,7 @@ F 1 "Conn_01x02_MountingPin" H 1738 4414 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 1650 4500 50  0001 C CNN
 F 3 "~" H 1650 4500 50  0001 C CNN
 	1    1650 4500
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 Wire Wire Line
 	1250 2500 1250 2200
@@ -402,7 +402,7 @@ F 1 "Conn_01x02_MountingPin" H 1988 1564 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 1900 1650 50  0001 C CNN
 F 3 "~" H 1900 1650 50  0001 C CNN
 	1    1900 1650
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 Wire Wire Line
 	2100 1550 3400 1550
@@ -426,7 +426,7 @@ F 1 "Conn_01x02_MountingPin" H 10487 2425 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 10400 2600 50  0001 C CNN
 F 3 "~" H 10400 2600 50  0001 C CNN
 	1    10400 2600
-	1    0    0    -1  
+	1    0    0    -1
 $EndComp
 Wire Wire Line
 	7450 2100 10200 2100
@@ -444,6 +444,6 @@ F 1 "Conn_01x02_MountingPin" H 1988 1064 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 1900 1150 50  0001 C CNN
 F 3 "~" H 1900 1150 50  0001 C CNN
 	1    1900 1150
-	-1   0    0    1   
+	-1   0    0    1
 $EndComp
 $EndSCHEMATC
