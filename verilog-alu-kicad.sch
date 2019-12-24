@@ -392,34 +392,34 @@ F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 2500 4600 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 JVCC&GND
+L Connector_Generic:Conn_01x02 JVCC&GND1
 U 1 1 5E05D4E7
 P 1650 4400
-F 0 "JVCC&GND" H 1568 4617 50  0000 C CNN
+F 0 "JVCC&GND1" H 1568 4617 50  0000 C CNN
 F 1 "Conn_01x02" H 1568 4526 50  0000 C CNN
-F 2 "" H 1650 4400 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1650 4400 50  0001 C CNN
 F 3 "~" H 1650 4400 50  0001 C CNN
 	1    1650 4400
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 decoder_2&decoder_4
+L Connector_Generic:Conn_01x02 A&B1
 U 1 1 5E0BA8C4
 P 1050 2500
-F 0 "decoder_2&decoder_4" H 968 2717 50  0000 C CNN
+F 0 "A&B1" H 968 2717 50  0000 C CNN
 F 1 "Conn_01x02" H 968 2626 50  0000 C CNN
-F 2 "" H 1050 2500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1050 2500 50  0001 C CNN
 F 3 "~" H 1050 2500 50  0001 C CNN
 	1    1050 2500
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 InputSelector&OutputSelector
+L Connector_Generic:Conn_01x02 InputSelector&OutputSelector1
 U 1 1 5E0DD4AF
 P 1900 1550
-F 0 "InputSelector&OutputSelector" H 1818 1767 50  0000 C CNN
+F 0 "InputSelector&OutputSelector1" H 1818 1767 50  0000 C CNN
 F 1 "Conn_01x02" H 1818 1676 50  0000 C CNN
-F 2 "" H 1900 1550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1900 1550 50  0001 C CNN
 F 3 "~" H 1900 1550 50  0001 C CNN
 	1    1900 1550
 	-1   0    0    -1  
@@ -430,18 +430,18 @@ U 1 1 5E0E8985
 P 1900 1050
 F 0 "C&decoder_0" H 1818 1267 50  0000 C CNN
 F 1 "Conn_01x02" H 1818 1176 50  0000 C CNN
-F 2 "" H 1900 1050 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1900 1050 50  0001 C CNN
 F 3 "~" H 1900 1050 50  0001 C CNN
 	1    1900 1050
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 Cout&Sout
+L Connector_Generic:Conn_01x02 Cout&Sout1
 U 1 1 5E1AD419
 P 10400 2600
-F 0 "Cout&Sout" H 10480 2592 50  0000 L CNN
+F 0 "Cout&Sout1" H 10480 2592 50  0000 L CNN
 F 1 "Conn_01x02" H 10480 2501 50  0000 L CNN
-F 2 "" H 10400 2600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10400 2600 50  0001 C CNN
 F 3 "~" H 10400 2600 50  0001 C CNN
 	1    10400 2600
 	1    0    0    -1  
