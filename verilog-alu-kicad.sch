@@ -15,17 +15,6 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L verilog-alu-kicad-rescue:74LS00-74xx NAND-IC-1
-U 5 1 5DE72DAD
-P 2500 4600
-F 0 "NAND-IC-1" H 2730 4646 50  0000 L CNN
-F 1 "74LS00" H 2730 4555 50  0000 L CNN
-F 2 "Digikey:Socket_DIP-14_7.62mm_Conn" H 2500 4600 50  0001 C CNN
-F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 2500 4600 50  0001 C CNN
-	5    2500 4600
-	1    0    0    -1  
-$EndComp
-$Comp
 L verilog-alu-kicad-rescue:74LS00-74xx NAND-IC-2
 U 5 1 5DFE03CB
 P 3350 4600
@@ -327,8 +316,6 @@ F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 5000 4600 50  0001 C CNN
 	5    5000 4600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	2500 4100 3350 4100
 Connection ~ 3350 4100
 Wire Wire Line
 	3350 4100 4200 4100
@@ -343,28 +330,6 @@ Wire Wire Line
 Connection ~ 4200 5100
 Wire Wire Line
 	4200 5100 5000 5100
-$Comp
-L Connector_Generic_MountingPin:Conn_01x02_MountingPin decoder_2&decoder_4
-U 1 1 5DEF4F14
-P 1050 2600
-F 0 "decoder_2&decoder_4" H 1138 2423 50  0000 L CNN
-F 1 "Conn_01x02_MountingPin" H 1138 2514 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 1050 2600 50  0001 C CNN
-F 3 "~" H 1050 2600 50  0001 C CNN
-	1    1050 2600
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic_MountingPin:Conn_01x02_MountingPin VCC&GND1
-U 1 1 5DEFA690
-P 1650 4500
-F 0 "VCC&GND1" H 1738 4323 50  0000 L CNN
-F 1 "Conn_01x02_MountingPin" H 1738 4414 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 1650 4500 50  0001 C CNN
-F 3 "~" H 1650 4500 50  0001 C CNN
-	1    1650 4500
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	1250 2500 1250 2200
 Wire Wire Line
@@ -378,14 +343,6 @@ Connection ~ 1500 2900
 Wire Wire Line
 	1850 4400 1850 4100
 Wire Wire Line
-	1850 4100 2500 4100
-Connection ~ 2500 4100
-Wire Wire Line
-	1850 4500 1850 5100
-Wire Wire Line
-	1850 5100 2500 5100
-Connection ~ 2500 5100
-Wire Wire Line
 	2350 1050 2100 1050
 Wire Wire Line
 	2350 1000 2350 1050
@@ -393,17 +350,6 @@ Wire Wire Line
 	2100 1150 2350 1150
 Wire Wire Line
 	2350 1150 2350 1200
-$Comp
-L Connector_Generic_MountingPin:Conn_01x02_MountingPin InputSelector&OutputSelector1
-U 1 1 5DF16C36
-P 1900 1650
-F 0 "InputSelector&OutputSelector1" H 1988 1473 50  0000 L CNN
-F 1 "Conn_01x02_MountingPin" H 1988 1564 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 1900 1650 50  0001 C CNN
-F 3 "~" H 1900 1650 50  0001 C CNN
-	1    1900 1650
-	-1   0    0    1   
-$EndComp
 Wire Wire Line
 	2100 1550 3400 1550
 Wire Wire Line
@@ -417,17 +363,6 @@ Wire Wire Line
 	2200 3800 7150 3800
 Wire Wire Line
 	2200 1650 2200 3800
-$Comp
-L Connector_Generic_MountingPin:Conn_01x02_MountingPin Cout&Sout1
-U 1 1 5DF32BB6
-P 10400 2600
-F 0 "Cout&Sout1" H 10487 2516 50  0000 L CNN
-F 1 "Conn_01x02_MountingPin" H 10487 2425 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 10400 2600 50  0001 C CNN
-F 3 "~" H 10400 2600 50  0001 C CNN
-	1    10400 2600
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	7450 2100 10200 2100
 Wire Wire Line
@@ -435,15 +370,80 @@ Wire Wire Line
 Connection ~ 7450 2100
 Wire Wire Line
 	9600 2700 10200 2700
+Connection ~ 2500 5100
+Connection ~ 2500 4100
+Wire Wire Line
+	1850 4100 2500 4100
+Wire Wire Line
+	2500 4100 3350 4100
+Wire Wire Line
+	1850 5100 2500 5100
+Wire Wire Line
+	1850 4500 1850 5100
 $Comp
-L Connector_Generic_MountingPin:Conn_01x02_MountingPin C&decoder_0
-U 1 1 5DF0DD07
-P 1900 1150
-F 0 "C&decoder_0" H 1988 973 50  0000 L CNN
-F 1 "Conn_01x02_MountingPin" H 1988 1064 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 1900 1150 50  0001 C CNN
-F 3 "~" H 1900 1150 50  0001 C CNN
-	1    1900 1150
-	-1   0    0    1   
+L verilog-alu-kicad-rescue:74LS00-74xx NAND-IC-1
+U 5 1 5DE72DAD
+P 2500 4600
+F 0 "NAND-IC-1" H 2730 4646 50  0000 L CNN
+F 1 "74LS00" H 2730 4555 50  0000 L CNN
+F 2 "Digikey:Socket_DIP-14_7.62mm_Conn" H 2500 4600 50  0001 C CNN
+F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 2500 4600 50  0001 C CNN
+	5    2500 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 JVCC&GND1
+U 1 1 5E05D4E7
+P 1650 4400
+F 0 "JVCC&GND1" H 1568 4617 50  0000 C CNN
+F 1 "Conn_01x02" H 1568 4526 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1650 4400 50  0001 C CNN
+F 3 "~" H 1650 4400 50  0001 C CNN
+	1    1650 4400
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 A&B1
+U 1 1 5E0BA8C4
+P 1050 2500
+F 0 "A&B1" H 968 2717 50  0000 C CNN
+F 1 "Conn_01x02" H 968 2626 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1050 2500 50  0001 C CNN
+F 3 "~" H 1050 2500 50  0001 C CNN
+	1    1050 2500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 InputSelector&OutputSelector1
+U 1 1 5E0DD4AF
+P 1900 1550
+F 0 "InputSelector&OutputSelector1" H 1818 1767 50  0000 C CNN
+F 1 "Conn_01x02" H 1818 1676 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1900 1550 50  0001 C CNN
+F 3 "~" H 1900 1550 50  0001 C CNN
+	1    1900 1550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 C&decoder_0
+U 1 1 5E0E8985
+P 1900 1050
+F 0 "C&decoder_0" H 1818 1267 50  0000 C CNN
+F 1 "Conn_01x02" H 1818 1176 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1900 1050 50  0001 C CNN
+F 3 "~" H 1900 1050 50  0001 C CNN
+	1    1900 1050
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 Cout&Sout1
+U 1 1 5E1AD419
+P 10400 2600
+F 0 "Cout&Sout1" H 10480 2592 50  0000 L CNN
+F 1 "Conn_01x02" H 10480 2501 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10400 2600 50  0001 C CNN
+F 3 "~" H 10400 2600 50  0001 C CNN
+	1    10400 2600
+	1    0    0    -1  
 $EndComp
 $EndSCHEMATC
