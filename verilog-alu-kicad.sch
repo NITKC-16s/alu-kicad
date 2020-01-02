@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:verilog-alu-kicad-cache
-EELAYER 26 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -20,7 +20,7 @@ U 5 1 5DE72DAD
 P 2500 4600
 F 0 "NAND-IC-1" H 2730 4646 50  0000 L CNN
 F 1 "74LS00" H 2730 4555 50  0000 L CNN
-F 2 "" H 2500 4600 50  0001 C CNN
+F 2 "Digikey:Socket_DIP-14_7.62mm_Conn" H 2500 4600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 2500 4600 50  0001 C CNN
 	5    2500 4600
 	1    0    0    -1  
@@ -31,7 +31,7 @@ U 5 1 5DFE03CB
 P 3350 4600
 F 0 "NAND-IC-2" H 3580 4646 50  0000 L CNN
 F 1 "74LS00" H 3580 4555 50  0000 L CNN
-F 2 "" H 3350 4600 50  0001 C CNN
+F 2 "Digikey:Socket_DIP-14_7.62mm_Conn" H 3350 4600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 3350 4600 50  0001 C CNN
 	5    3350 4600
 	1    0    0    -1  
@@ -71,7 +71,7 @@ U 4 1 5E0EDF5A
 P 9300 2700
 F 0 "NAND-IC-4" H 9300 3025 50  0000 C CNN
 F 1 "74LS00" H 9300 2934 50  0000 C CNN
-F 2 "" H 9300 2700 50  0001 C CNN
+F 2 "Digikey:Socket_DIP-14_7.62mm_Conn" H 9300 2700 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 9300 2700 50  0001 C CNN
 	4    9300 2700
 	1    0    0    -1  
@@ -82,7 +82,7 @@ U 3 1 5E0EB4D3
 P 8300 3000
 F 0 "NAND-IC-4" H 8300 3325 50  0000 C CNN
 F 1 "74LS00" H 8300 3234 50  0000 C CNN
-F 2 "" H 8300 3000 50  0001 C CNN
+F 2 "Digikey:Socket_DIP-14_7.62mm_Conn" H 8300 3000 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 8300 3000 50  0001 C CNN
 	3    8300 3000
 	1    0    0    -1  
@@ -93,7 +93,7 @@ U 2 1 5E0E7CFF
 P 8300 2450
 F 0 "NAND-IC-4" H 8300 2775 50  0000 C CNN
 F 1 "74LS00" H 8300 2684 50  0000 C CNN
-F 2 "" H 8300 2450 50  0001 C CNN
+F 2 "Digikey:Socket_DIP-14_7.62mm_Conn" H 8300 2450 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 8300 2450 50  0001 C CNN
 	2    8300 2450
 	1    0    0    -1  
@@ -104,7 +104,7 @@ U 1 1 5E0E622C
 P 7700 3900
 F 0 "NAND-IC-4" H 7700 4225 50  0000 C CNN
 F 1 "74LS00" H 7700 4134 50  0000 C CNN
-F 2 "" H 7700 3900 50  0001 C CNN
+F 2 "Digikey:Socket_DIP-14_7.62mm_Conn" H 7700 3900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 7700 3900 50  0001 C CNN
 	1    7700 3900
 	1    0    0    -1  
@@ -119,7 +119,7 @@ U 2 1 5E011ABF
 P 5600 2650
 F 0 "NAND-IC-2" H 5600 2975 50  0000 C CNN
 F 1 "74LS00" H 5600 2884 50  0000 C CNN
-F 2 "" H 5600 2650 50  0001 C CNN
+F 2 "Digikey:Socket_DIP-14_7.62mm_Conn" H 5600 2650 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 5600 2650 50  0001 C CNN
 	2    5600 2650
 	1    0    0    -1  
@@ -130,7 +130,7 @@ U 1 1 5DE690BD
 P 2650 1100
 F 0 "NAND-IC-3" H 2650 1425 50  0000 C CNN
 F 1 "74LS00" H 2650 1334 50  0000 C CNN
-F 2 "" H 2650 1100 50  0001 C CNN
+F 2 "Digikey:Socket_DIP-14_7.62mm_Conn" H 2650 1100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 2650 1100 50  0001 C CNN
 	1    2650 1100
 	1    0    0    -1  
@@ -145,7 +145,7 @@ U 3 1 5E017A71
 P 6150 2100
 F 0 "NAND-IC-3" H 6150 2425 50  0000 C CNN
 F 1 "74LS00" H 6150 2334 50  0000 C CNN
-F 2 "" H 6150 2100 50  0001 C CNN
+F 2 "Digikey:Socket_DIP-14_7.62mm_Conn" H 6150 2100 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 6150 2100 50  0001 C CNN
 	3    6150 2100
 	1    0    0    -1  
@@ -180,7 +180,7 @@ U 1 1 5DFE2341
 P 4800 2900
 F 0 "NAND-IC-2" H 4800 3225 50  0000 C CNN
 F 1 "74LS00" H 4800 3134 50  0000 C CNN
-F 2 "" H 4800 2900 50  0001 C CNN
+F 2 "Digikey:Socket_DIP-14_7.62mm_Conn" H 4800 2900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 4800 2900 50  0001 C CNN
 	1    4800 2900
 	1    0    0    -1  
@@ -191,7 +191,7 @@ U 4 1 5DFDE8AA
 P 6700 2900
 F 0 "NAND-IC-2" H 6700 3225 50  0000 C CNN
 F 1 "74LS00" H 6700 3134 50  0000 C CNN
-F 2 "" H 6700 2900 50  0001 C CNN
+F 2 "Digikey:Socket_DIP-14_7.62mm_Conn" H 6700 2900 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 6700 2900 50  0001 C CNN
 	4    6700 2900
 	1    0    0    -1  
@@ -206,7 +206,7 @@ U 3 1 5DFD4078
 P 5600 3150
 F 0 "NAND-IC-2" H 5600 3475 50  0000 C CNN
 F 1 "74LS00" H 5600 3384 50  0000 C CNN
-F 2 "" H 5600 3150 50  0001 C CNN
+F 2 "Digikey:Socket_DIP-14_7.62mm_Conn" H 5600 3150 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 5600 3150 50  0001 C CNN
 	3    5600 3150
 	1    0    0    -1  
@@ -225,7 +225,7 @@ U 2 1 5DFBF997
 P 2750 2300
 F 0 "NAND-IC-1" H 2750 2625 50  0000 C CNN
 F 1 "74LS00" H 2750 2534 50  0000 C CNN
-F 2 "" H 2750 2300 50  0001 C CNN
+F 2 "Digikey:Socket_DIP-14_7.62mm_Conn" H 2750 2300 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 2750 2300 50  0001 C CNN
 	2    2750 2300
 	1    0    0    -1  
@@ -245,7 +245,7 @@ U 1 1 5DF9BD07
 P 1800 2550
 F 0 "NAND-IC-1" H 1800 2875 50  0000 C CNN
 F 1 "74LS00" H 1800 2784 50  0000 C CNN
-F 2 "" H 1800 2550 50  0001 C CNN
+F 2 "Digikey:Socket_DIP-14_7.62mm_Conn" H 1800 2550 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 1800 2550 50  0001 C CNN
 	1    1800 2550
 	1    0    0    -1  
@@ -262,7 +262,7 @@ U 3 1 5DE70E2A
 P 2750 2800
 F 0 "NAND-IC-1" H 2750 3125 50  0000 C CNN
 F 1 "74LS00" H 2750 3034 50  0000 C CNN
-F 2 "" H 2750 2800 50  0001 C CNN
+F 2 "Digikey:Socket_DIP-14_7.62mm_Conn" H 2750 2800 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 2750 2800 50  0001 C CNN
 	3    2750 2800
 	1    0    0    -1  
@@ -273,7 +273,7 @@ U 4 1 5DE71E8C
 P 3700 2550
 F 0 "NAND-IC-1" H 3700 2875 50  0000 C CNN
 F 1 "74LS00" H 3700 2784 50  0000 C CNN
-F 2 "" H 3700 2550 50  0001 C CNN
+F 2 "Digikey:Socket_DIP-14_7.62mm_Conn" H 3700 2550 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 3700 2550 50  0001 C CNN
 	4    3700 2550
 	1    0    0    -1  
@@ -284,7 +284,7 @@ U 2 1 5DE6C17D
 P 3700 1200
 F 0 "NAND-IC-3" H 3700 1525 50  0000 C CNN
 F 1 "74LS00" H 3700 1434 50  0000 C CNN
-F 2 "" H 3700 1200 50  0001 C CNN
+F 2 "Digikey:Socket_DIP-14_7.62mm_Conn" H 3700 1200 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 3700 1200 50  0001 C CNN
 	2    3700 1200
 	1    0    0    -1  
@@ -311,7 +311,7 @@ U 5 1 5E9E9351
 P 4200 4600
 F 0 "NAND-IC-3" H 4430 4646 50  0000 L CNN
 F 1 "74LS00" H 4430 4555 50  0000 L CNN
-F 2 "" H 4200 4600 50  0001 C CNN
+F 2 "Digikey:Socket_DIP-14_7.62mm_Conn" H 4200 4600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 4200 4600 50  0001 C CNN
 	5    4200 4600
 	1    0    0    -1  
@@ -322,7 +322,7 @@ U 5 1 5E9EC331
 P 5000 4600
 F 0 "NAND-IC-4" H 5230 4646 50  0000 L CNN
 F 1 "74LS00" H 5230 4555 50  0000 L CNN
-F 2 "" H 5000 4600 50  0001 C CNN
+F 2 "Digikey:Socket_DIP-14_7.62mm_Conn" H 5000 4600 50  0001 C CNN
 F 3 "http://www.ti.com/lit/gpn/sn74ls00" H 5000 4600 50  0001 C CNN
 	5    5000 4600
 	1    0    0    -1  
@@ -344,23 +344,23 @@ Connection ~ 4200 5100
 Wire Wire Line
 	4200 5100 5000 5100
 $Comp
-L Connector_Generic_MountingPin:Conn_01x02_MountingPin J?
+L Connector_Generic_MountingPin:Conn_01x02_MountingPin decoder_2&decoder_4
 U 1 1 5DEF4F14
 P 1050 2600
-F 0 "J?" H 1138 2423 50  0000 L CNN
+F 0 "decoder_2&decoder_4" H 1138 2423 50  0000 L CNN
 F 1 "Conn_01x02_MountingPin" H 1138 2514 50  0000 L CNN
-F 2 "" H 1050 2600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 1050 2600 50  0001 C CNN
 F 3 "~" H 1050 2600 50  0001 C CNN
 	1    1050 2600
 	-1   0    0    1   
 $EndComp
 $Comp
-L Connector_Generic_MountingPin:Conn_01x02_MountingPin J?
+L Connector_Generic_MountingPin:Conn_01x02_MountingPin VCC&GND1
 U 1 1 5DEFA690
 P 1650 4500
-F 0 "J?" H 1738 4323 50  0000 L CNN
+F 0 "VCC&GND1" H 1738 4323 50  0000 L CNN
 F 1 "Conn_01x02_MountingPin" H 1738 4414 50  0000 L CNN
-F 2 "" H 1650 4500 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 1650 4500 50  0001 C CNN
 F 3 "~" H 1650 4500 50  0001 C CNN
 	1    1650 4500
 	-1   0    0    1   
@@ -394,23 +394,12 @@ Wire Wire Line
 Wire Wire Line
 	2350 1150 2350 1200
 $Comp
-L Connector_Generic_MountingPin:Conn_01x02_MountingPin J?
-U 1 1 5DF0DD07
-P 1900 1150
-F 0 "J?" H 1988 973 50  0000 L CNN
-F 1 "Conn_01x02_MountingPin" H 1988 1064 50  0000 L CNN
-F 2 "" H 1900 1150 50  0001 C CNN
-F 3 "~" H 1900 1150 50  0001 C CNN
-	1    1900 1150
-	-1   0    0    1   
-$EndComp
-$Comp
-L Connector_Generic_MountingPin:Conn_01x02_MountingPin J?
+L Connector_Generic_MountingPin:Conn_01x02_MountingPin InputSelector&OutputSelector1
 U 1 1 5DF16C36
 P 1900 1650
-F 0 "J?" H 1988 1473 50  0000 L CNN
+F 0 "InputSelector&OutputSelector1" H 1988 1473 50  0000 L CNN
 F 1 "Conn_01x02_MountingPin" H 1988 1564 50  0000 L CNN
-F 2 "" H 1900 1650 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 1900 1650 50  0001 C CNN
 F 3 "~" H 1900 1650 50  0001 C CNN
 	1    1900 1650
 	-1   0    0    1   
@@ -429,12 +418,12 @@ Wire Wire Line
 Wire Wire Line
 	2200 1650 2200 3800
 $Comp
-L Connector_Generic_MountingPin:Conn_01x02_MountingPin J?
+L Connector_Generic_MountingPin:Conn_01x02_MountingPin Cout&Sout1
 U 1 1 5DF32BB6
 P 10400 2600
-F 0 "J?" H 10487 2516 50  0000 L CNN
+F 0 "Cout&Sout1" H 10487 2516 50  0000 L CNN
 F 1 "Conn_01x02_MountingPin" H 10487 2425 50  0000 L CNN
-F 2 "" H 10400 2600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 10400 2600 50  0001 C CNN
 F 3 "~" H 10400 2600 50  0001 C CNN
 	1    10400 2600
 	1    0    0    -1  
@@ -446,4 +435,15 @@ Wire Wire Line
 Connection ~ 7450 2100
 Wire Wire Line
 	9600 2700 10200 2700
+$Comp
+L Connector_Generic_MountingPin:Conn_01x02_MountingPin C&decoder_0
+U 1 1 5DF0DD07
+P 1900 1150
+F 0 "C&decoder_0" H 1988 973 50  0000 L CNN
+F 1 "Conn_01x02_MountingPin" H 1988 1064 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 1900 1150 50  0001 C CNN
+F 3 "~" H 1900 1150 50  0001 C CNN
+	1    1900 1150
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
