@@ -351,18 +351,10 @@ Wire Wire Line
 Wire Wire Line
 	2350 1150 2350 1200
 Wire Wire Line
-	2100 1550 3400 1550
-Wire Wire Line
-	3400 1300 3400 1550
-Wire Wire Line
 	2100 2550 2450 2550
 Connection ~ 7150 3800
 Wire Wire Line
 	2100 1650 2200 1650
-Wire Wire Line
-	2200 3800 7150 3800
-Wire Wire Line
-	2200 1650 2200 3800
 Wire Wire Line
 	7450 2100 10200 2100
 Wire Wire Line
@@ -414,36 +406,35 @@ F 3 "~" H 1050 2500 50  0001 C CNN
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 InputSelector&OutputSelector1
-U 1 1 5E0DD4AF
-P 1900 1550
-F 0 "InputSelector&OutputSelector1" H 1818 1767 50  0000 C CNN
-F 1 "Conn_01x02" H 1818 1676 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1900 1550 50  0001 C CNN
-F 3 "~" H 1900 1550 50  0001 C CNN
-	1    1900 1550
+L Connector_Generic:Conn_01x03 C&decoder_0&InputSelector1
+U 1 1 5E130E52
+P 1900 1150
+F 0 "C&decoder_0&InputSelector1" H 1818 1467 50  0000 C CNN
+F 1 "Conn_01x03" H 1818 1376 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 1900 1150 50  0001 C CNN
+F 3 "~" H 1900 1150 50  0001 C CNN
+	1    1900 1150
 	-1   0    0    -1  
 $EndComp
+Wire Wire Line
+	3400 1300 2100 1300
+Wire Wire Line
+	2100 1300 2100 1250
 $Comp
-L Connector_Generic:Conn_01x02 C&decoder_0
-U 1 1 5E0E8985
-P 1900 1050
-F 0 "C&decoder_0" H 1818 1267 50  0000 C CNN
-F 1 "Conn_01x02" H 1818 1176 50  0000 C CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1900 1050 50  0001 C CNN
-F 3 "~" H 1900 1050 50  0001 C CNN
-	1    1900 1050
-	-1   0    0    -1  
-$EndComp
-$Comp
-L Connector_Generic:Conn_01x02 Cout&Sout1
-U 1 1 5E1AD419
-P 10400 2600
-F 0 "Cout&Sout1" H 10480 2592 50  0000 L CNN
-F 1 "Conn_01x02" H 10480 2501 50  0000 L CNN
-F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 10400 2600 50  0001 C CNN
-F 3 "~" H 10400 2600 50  0001 C CNN
-	1    10400 2600
+L Connector_Generic:Conn_01x03 Cout&Sout&OutputSelector1
+U 1 1 5E1DEB25
+P 10400 2700
+F 0 "Cout&Sout&OutputSelector1" H 10480 2742 50  0000 L CNN
+F 1 "Conn_01x03" H 10480 2651 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Horizontal" H 10400 2700 50  0001 C CNN
+F 3 "~" H 10400 2700 50  0001 C CNN
+	1    10400 2700
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	7150 3800 7150 4150
+Wire Wire Line
+	7150 4150 10200 4150
+Wire Wire Line
+	10200 4150 10200 2800
 $EndSCHEMATC
